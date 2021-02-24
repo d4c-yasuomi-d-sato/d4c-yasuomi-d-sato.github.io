@@ -1,5 +1,116 @@
-<html>
- <body>
- <h1> Hello World! </h1>
- </body>
-</html>
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://ericrayanderson.github.io/shinymaterial/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--Import Google Icon Font-->
+    <link href="./shinymaterial_files/icon" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="./shinymaterial_files/materialize.min.css">
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAST×D4c COVID-19感染リスク分析DB</title>
+    <!-- <link rel="icon" href="https://ericrayanderson.github.io/shinymaterial/img/favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="./shinymaterial_files/tomorrow-night-eighties.css">
+    <style>
+        .my-code {
+            font-family: monospace;
+            color: blue;
+            display: inline;
+        }
+
+        .my-code-black {
+            font-family: monospace;
+            color: black;
+            display: inline;
+        }
+
+    </style>
+</head>
+
+<body class="grey lighten-4">
+
+    <nav>
+        <div class="nav-wrapper">
+            <div href="javascript:void(0)" class="brand-logo">&nbsp;&nbsp;<a href="https://www.jast.jp/" target="_blank">JAST×D4c COVID-19感染リスク分析DB</a></div>
+            <div href="javascript:void(0)" class="brand-logo right">
+                <a href="https://d4cai.com/" target="_blank">
+                    <img style=" color: white" src="./shinymaterial_files/jast_d4c.jpg" width="60" height="40">&nbsp;
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="tabs tabs-fixed-width">
+        <li class="tab">
+            <a href="https://ericrayanderson.github.io/shinymaterial/#showcase" class="active">大項目</a>
+        </li>
+    <li class="indicator" style="left: 0px; right: 1166px;"></li></ul>
+
+    
+    <div class="col s12" id="showcase" style="display: none;">
+        <br>
+
+        <div class="row">
+            <div class="col m4 offset-m2 s12">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">外部データの可視化</span>
+                        <a href="https://ericrayanderson.shinyapps.io/shinymaterial_dashboard" target="_blank"><img src="./shinymaterial_files/shinymaterial_dashboard.png" width="100%"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col m4 s12">
+
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">リスク分析</span>
+                        <a href="https://ericrayanderson.github.io/shinymaterial_showcase/" target="_blank"><img src="./shinymaterial_files/example_app2.png" width="100%"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m4 offset-m2 s12">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">リスクシミュレーション</span>
+                        <a href="https://ericrayanderson.github.io/shinymaterial_parallax/" target="_blank"><img src="./shinymaterial_files/parallaxSS.png" width="100%"></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col m4 s12">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">参考データ</span>
+                        <a href="https://ericrayanderson.shinyapps.io/shinymaterial_crypto" target="_blank"><img src="./shinymaterial_files/shinymaterial_crypto.png" width="100%"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="./shinymaterial_files/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="./shinymaterial_files/materialize.min.js"></script>
+    <script src="./shinymaterial_files/highlight.pack.js"></script>
+    <script>
+        $(document).ready(function() {
+            M.AutoInit()
+            $('.parallax').parallax();
+            $('.modal').modal();
+            $('.shiny-material-dropdown').formSelect();
+            $(".shiny-material-radio-button").find("input:first").trigger("click");
+            hljs.initHighlightingOnLoad();
+            $('.datepicker').datepicker({});
+            $('.scrollspy').scrollSpy();
+        });
+
+    </script>
+
+
+
+</body></html>
