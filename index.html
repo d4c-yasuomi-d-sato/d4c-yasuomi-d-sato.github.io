@@ -1,16 +1,17 @@
 <!DOCTYPE html>
+<!-- saved from url=(0048)https://ericrayanderson.github.io/shinymaterial/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!--Import Google Icon Font-->
     <link href="./shinymaterial_files/icon" rel="stylesheet">
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./shinymaterial_files/materialize.min.css">
 
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAST×D4c COVID-19感染リスク分析DB</title>
     <!-- <link rel="icon" href="https://ericrayanderson.github.io/shinymaterial/img/favicon.ico" type="image/x-icon"> -->
-    <link rel="stylesheet" href="./css/tomorrow-night-eighties.css">
+    <link rel="stylesheet" href="./shinymaterial_files/tomorrow-night-eighties.css">
     <style>
         .my-code {
             font-family: monospace;
@@ -31,34 +32,61 @@
 
     <nav>
         <div class="nav-wrapper">
-            <div href="javascript:void(0)" class="brand-logo">&nbsp;&nbsp;<a href="https://www.jast.jp/" target="_blank">JAST×D4c COVID-19感染リスク分析DB</a></div>
-            <div href="javascript:void(0)" class="brand-logo right">
-                <a href="https://d4cai.com/" target="_blank">
-                    <img style=" color: white" src="./img/jast_d4c.jpg" width="60" height="40">&nbsp;
-                </a>
-            </div>
+            <div href="javascript:void(0)" class="brand-logo center">&nbsp;&nbsp;JAST×D4c COVID-19感染リスク分析DB</div>
         </div>
     </nav>
-  
+
     <ul class="tabs tabs-fixed-width">
         <li class="tab">
-            <a href="#link" class="active">はじめに</a>
+            <a href="#about" class="active">はじめに</a>
         </li>
         <li class="tab">
-            <a href="https://ericrayanderson.github.io/shinymaterial/#showcase" class="active">分析</a>
+            <a href="#showcase" class="">分析</a>
         </li>
-    <li class="indicator" style="left: 0px; right: 1166px;"></li>
-    </ul>    
+    <li class="indicator" style="left: 0px; right: 1166px;"></li></ul>
+
+    <div class="col s12 active" id="about" style="display: block;">
+        <div class="row">
+            <div class="col s12 m8 offset-m2">
+                <br>
+
+                <div class="card z-depth-3">
+                    <div class="card-content center">
+                        <!--<span class="card-title" style="font-size: 33px">shinymaterial</span>-->
+                        <h5 style="line-height:110%">
+                        新型コロナウイルス（COVID-19）感染リスク分析ダッシュボード
+                        </h5>
+                        <h5 style="line-height:110%">
+                        ver.01
+                        </h5>
+                        <div class="row"> 
+                           <h6 style="line-height:110%;text-align:justify" class="col s12 left-align">
+                           本ダッシュボードは、日本システム技術（株）が誇る国内最大級の医療レセプトデータと国内外のCOVID-19感染状況の公開データを利活用し、（公財）佐々木研究所附属杏雲堂病院院長・相馬正義氏の医学的な知見に基づく監修のもと、現状の可視化に加え、感染リスク予測に関する情報を発信するサイトです。<br>
+                           </h6>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col s12">
+                                <img width="70%" src="./jast_d4c.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="col s12" id="showcase" style="display: none;">
         <br>
-        
-        <a name="link">ジャンプ先です。</a>    
+
         <div class="row">
             <div class="col m4 offset-m2 s12">
                 <div class="card">
                     <div class="card-content">
                         <span class="card-title">外部データの可視化</span>
-                        <a href="https://ericrayanderson.shinyapps.io/shinymaterial_dashboard" target="_blank"><img src="./shinymaterial_files/shinymaterial_dashboard.png" width="100%"></a>
+                        <a href="https://ericrayanderson.shinyapps.io/shinymaterial_dashboard" target="_blank"><img src="./4452570_s.jpg" width="80%"></a>
+                        <br>
+                        <h7>公開されている全世界/日本全国感染状況を可視化し、感染状況を分かりやすくお伝えします。</h7>
                     </div>
                 </div>
             </div>
@@ -67,7 +95,9 @@
                 <div class="card">
                     <div class="card-content">
                         <span class="card-title">リスク分析</span>
-                        <a href="https://ericrayanderson.github.io/shinymaterial_showcase/" target="_blank"><img src="./shinymaterial_files/example_app2.png" width="100%"></a>
+                        <a href="https://ericrayanderson.github.io/shinymaterial_showcase/" target="_blank"><img src="./4175916_s.jpg" width="80%"></a>
+                        <br>
+                        <h7>医療セレプトデータを元に様々な分析手法を用い、個人の属性の違いによる感染リスクをビジュアルに分析します。</h7>
                     </div>
                 </div>
             </div>
@@ -77,7 +107,9 @@
                 <div class="card">
                     <div class="card-content">
                         <span class="card-title">リスクシミュレーション</span>
-                        <a href="https://ericrayanderson.github.io/shinymaterial_parallax/" target="_blank"><img src="./shinymaterial_files/parallaxSS.png" width="100%"></a>
+                        <a href="https://ericrayanderson.github.io/shinymaterial_parallax/" target="_blank"><img src="./3816464_s.jpg" width="80%"></a>
+                        <br>
+                        <h7>各種データ/解析結果を用い、今後のCOVID-19感染防止のための感染リスクを分かりやすくシミュレーションします。</h7>
                     </div>
                 </div>
 
@@ -86,19 +118,20 @@
                 <div class="card">
                     <div class="card-content">
                         <span class="card-title">参考データ</span>
-                        <a href="https://ericrayanderson.shinyapps.io/shinymaterial_crypto" target="_blank"><img src="./shinymaterial_files/shinymaterial_crypto.png" width="100%"></a>
+                        <a href="https://ericrayanderson.shinyapps.io/shinymaterial_crypto" target="_blank"><img src="./2380009.jpg" width="85%"></a>
+                        <br>
+                        <h7>データの可視化、リスク分析、リスクシミュレーションの結果の詳細を分かりやすく説明します。</h7>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
     
     <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="./shinymaterial_files/jquery-2.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
-    <script src="./js/materialize.min.js"></script>
-    <script src="./js/highlight.pack.js"></script>
+    <script src="./shinymaterial_files/materialize.min.js"></script>
+    <script src="./shinymaterial_files/highlight.pack.js"></script>
     <script>
         $(document).ready(function() {
             M.AutoInit()
@@ -115,4 +148,5 @@
 
 
 
-</body></html>
+</body>
+</html>
